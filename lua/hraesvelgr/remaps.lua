@@ -23,6 +23,9 @@ map("n", "<leader>fm", function()
 	require("conform").format()
 end)
 
+-- Themes
+map("n", "<leader>th", vim.cmd.Themery)
+
 -- Stop bad habits
 map({ "n", "i", "v" }, "<Up>", "<Nop>")
 map({ "n", "i", "v" }, "<Left>", "<Nop>")
