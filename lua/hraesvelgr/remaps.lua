@@ -8,7 +8,7 @@ map("n", "<leader>vs", function()
 	vim.cmd("vsplit")
 end)
 
--- NvimTree
+-- Oil
 map("n", "<leader>ee", vim.cmd.Oil)
 
 -- Telescope

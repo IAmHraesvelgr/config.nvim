@@ -51,7 +51,7 @@ for _, lsp in ipairs(servers) do
 				on_attach()
 			end,
 			capabilities = capabilities,
-      defaults = defaults
+			defaults = defaults,
 		})
 	end
 end

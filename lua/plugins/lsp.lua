@@ -2,7 +2,7 @@ return {
 	{
 		"williamboman/mason.nvim",
 		config = function()
-      require("hraesvelgr.configs.mason")
+			require("hraesvelgr.configs.mason")
 		end,
 	},
 	{
@@ -17,7 +17,7 @@ return {
 		event = "InsertEnter",
 		dependencies = { "rafamadriz/friendly-snippets" },
 		config = function()
-      require("hraesvelgr.configs.luasnip")
+			require("hraesvelgr.configs.luasnip")
 		end,
 	},
 }
