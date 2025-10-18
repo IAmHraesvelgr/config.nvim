@@ -13,6 +13,24 @@ return {
 	},
 
 	{ import = "nvchad.blink.lazyspec" },
+	{
+		"Saghen/blink.cmp",
+		opts = {
+			fuzzy = {
+				prebuilt_binaries = {
+					download = false,
+				},
+				implementation = "lua",
+			},
+		},
+		completion = {
+			ghost_text = { enabled = true },
+			documentation = {
+				auto_show = true,
+				auto_show_delay_ms = 0,
+			},
+		},
+	},
 
 	{
 		"nvim-treesitter/nvim-treesitter",
