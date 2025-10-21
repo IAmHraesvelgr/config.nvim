@@ -18,9 +18,6 @@ M.ui = {
 			icon = "󱓻",
 		},
 	},
-	telescope = {
-		style = "bordered",
-	},
 }
 
 M.nvdash = {
