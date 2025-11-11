@@ -13,4 +13,9 @@ local servers = {
 	"svelte",
 	"omnisharp",
 }
+
+vim.lsp.config("clangd", {
+	cmd = "clangd --header-insertion=never",
+})
+
 vim.lsp.enable(servers)
